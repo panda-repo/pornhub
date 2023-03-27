@@ -36,7 +36,7 @@ async def run_async(func, *args, **kwargs):
 
 
 def url(filter, client, update):
-    if "www.pornhub" in update.text:
+    if "https://www.pornhub" in update.text:
         return True
     else:
         return False
